@@ -1,0 +1,34 @@
+.profile {
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   width: max-content;
+   margin: 0 auto;
+   padding: 20px;
+   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+   border-radius: 7px;
+   text-align: center;
+}
+
+.avatar {
+    height: 300px;
+}
+.description{
+    margin-bottom: 10px;
+}
+
+.description p:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+}
+.stats li{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    width: 80px;
+    border: 1px gray solid ;
+}

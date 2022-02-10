@@ -1,0 +1,25 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+    background: #FFFFFA;
+    margin: 0 auto;
+    margin-top: 50px;
+    }
+    th {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 12px 10px;
+    border: 2px gray solid ;
+    color: gray;
+    }
+    tbody tr {
+    border: 1px gray solid ;
+    border-bottom: 2px solid gray;
+    }
+    td {
+    padding: 10px;
+    color: gray;
+    border: 2px gray solid ;
+    }
+
+    
